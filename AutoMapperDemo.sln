@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperDemo", "AutoMapperDemo\AutoMapperDemo.csproj", "{4A491EFD-C68B-4B83-8898-1C4354573982}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{116CD06B-8471-4D4B-B489-B5CD2891E09A}"
+	ProjectSection(SolutionItems) = preProject
+		AutoMapperDemo.vsmdi = AutoMapperDemo.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AutoMapperDemo.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A491EFD-C68B-4B83-8898-1C4354573982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A491EFD-C68B-4B83-8898-1C4354573982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A491EFD-C68B-4B83-8898-1C4354573982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A491EFD-C68B-4B83-8898-1C4354573982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

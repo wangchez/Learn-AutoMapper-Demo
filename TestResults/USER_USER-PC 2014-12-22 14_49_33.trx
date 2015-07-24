@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f04ccb6b-69c1-45d2-986b-2d17d4aae2f2" name="USER@USER-PC 2014-12-22 14:49:33" runUser="USER-PC\USER" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本機" id="90499dd7-6d50-4714-b5e5-34f0e23adc1f">
+    <Description>這些是本機測試回合的預設測試設定。</Description>
+    <Deployment enabled="false" runDeploymentRoot="USER_USER-PC 2014-12-22 14_49_33">
+      <DeploymentItem filename="C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\packages\AutoMapper.3.0.0-ci1037\lib\net40\AutoMapper.dll" />
+      <DeploymentItem filename="C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\packages\AutoMapper.3.0.0-ci1037\lib\net40\AutoMapper.Net4.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-12-22T14:49:33.0651905+08:00" queuing="2014-12-22T14:49:34.4012669+08:00" start="2014-12-22T14:49:34.4672707+08:00" finish="2014-12-22T14:49:44.0818206+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="USER-PC" outcome="Error" timestamp="2014-12-22T14:49:44.0818206+08:00">
+        <Text>測試主機處理序在未預期的情況下結束。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AutoMapperTestForInheritanceMapping" storage="c:\users\user\documents\visual studio 2010\projects\automapperdemo\automapperdemo\bin\debug\automapperdemo.dll" id="556692c1-0053-4d93-c341-ea99cd28c33f">
+      <Execution id="27c261d8-09ce-4073-af82-44ec27887ea7" />
+      <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2010/Projects/AutoMapperDemo/AutoMapperDemo/bin/Debug/AutoMapperDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoMapperDemo.MapperTestForInheritance, AutoMapperDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AutoMapperTestForInheritanceMapping" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="不在清單中的結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有載入的結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="556692c1-0053-4d93-c341-ea99cd28c33f" executionId="27c261d8-09ce-4073-af82-44ec27887ea7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="27c261d8-09ce-4073-af82-44ec27887ea7" testId="556692c1-0053-4d93-c341-ea99cd28c33f" testName="AutoMapperTestForInheritanceMapping" computerName="USER-PC" duration="00:00:09.5465460" startTime="2014-12-22T14:49:34.5352746+08:00" endTime="2014-12-22T14:49:44.0818206+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27c261d8-09ce-4073-af82-44ec27887ea7">
+    </UnitTestResult>
+  </Results>
+</TestRun>

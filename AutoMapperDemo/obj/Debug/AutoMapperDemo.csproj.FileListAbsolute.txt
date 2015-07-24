@@ -1,0 +1,9 @@
+C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\AutoMapperDemo\obj\Debug\AutoMapperDemo.g.resources
+C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\AutoMapperDemo\bin\Debug\AutoMapperDemo.dll
+C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\AutoMapperDemo\bin\Debug\AutoMapperDemo.pdb
+C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\AutoMapperDemo\bin\Debug\AutoMapper.dll
+C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\AutoMapperDemo\bin\Debug\AutoMapper.Net4.dll
+C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\AutoMapperDemo\bin\Debug\AutoMapper.xml
+C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\AutoMapperDemo\obj\Debug\AutoMapperDemo.dll
+C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\AutoMapperDemo\obj\Debug\AutoMapperDemo.pdb
+C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\AutoMapperDemo\obj\Debug\AutoMapperDemo.csprojResolveAssemblyReference.cache

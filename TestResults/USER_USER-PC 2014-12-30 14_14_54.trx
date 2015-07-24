@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e62de81c-b4de-425c-b67b-a63644a087d6" name="USER@USER-PC 2014-12-30 14:14:54" runUser="USER-PC\USER" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本機" id="90499dd7-6d50-4714-b5e5-34f0e23adc1f">
+    <Description>這些是本機測試回合的預設測試設定。</Description>
+    <Deployment enabled="false" runDeploymentRoot="USER_USER-PC 2014-12-30 14_14_54">
+      <DeploymentItem filename="C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\packages\AutoMapper.3.0.0-ci1037\lib\net40\AutoMapper.dll" />
+      <DeploymentItem filename="C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\packages\AutoMapper.3.0.0-ci1037\lib\net40\AutoMapper.Net4.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-12-30T14:14:54.4447401+08:00" queuing="2014-12-30T14:14:55.2467859+08:00" start="2014-12-30T14:14:55.3077894+08:00" finish="2014-12-30T14:15:05.5673762+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="USER-PC" outcome="Error" timestamp="2014-12-30T14:15:05.5673762+08:00">
+        <Text>測試主機處理序在未預期的情況下結束。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AutoMapperTestForCustomValueResolvers" storage="c:\users\user\documents\visual studio 2010\projects\automapperdemo\automapperdemo\bin\debug\automapperdemo.dll" id="8adff332-95ff-c423-6bbb-d3cb672f3d1c">
+      <Execution id="47b9a0a4-6ddf-4017-b7b6-41c2e92e94d0" />
+      <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2010/Projects/AutoMapperDemo/AutoMapperDemo/bin/Debug/AutoMapperDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoMapperDemo.MapperTestForResolver, AutoMapperDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AutoMapperTestForCustomValueResolvers" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="不在清單中的結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有載入的結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8adff332-95ff-c423-6bbb-d3cb672f3d1c" executionId="47b9a0a4-6ddf-4017-b7b6-41c2e92e94d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="47b9a0a4-6ddf-4017-b7b6-41c2e92e94d0" testId="8adff332-95ff-c423-6bbb-d3cb672f3d1c" testName="AutoMapperTestForCustomValueResolvers" computerName="USER-PC" duration="00:00:10.2005834" startTime="2014-12-30T14:14:55.3667928+08:00" endTime="2014-12-30T14:15:05.5673762+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47b9a0a4-6ddf-4017-b7b6-41c2e92e94d0">
+    </UnitTestResult>
+  </Results>
+</TestRun>

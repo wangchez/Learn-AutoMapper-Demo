@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="66ad3a27-e244-4041-b38c-f2cdd8ddb6f6" name="USER@USER-PC 2014-12-30 14:14:40" runUser="USER-PC\USER" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本機" id="90499dd7-6d50-4714-b5e5-34f0e23adc1f">
+    <Description>這些是本機測試回合的預設測試設定。</Description>
+    <Deployment enabled="false" runDeploymentRoot="USER_USER-PC 2014-12-30 14_14_40">
+      <DeploymentItem filename="C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\packages\AutoMapper.3.0.0-ci1037\lib\net40\AutoMapper.dll" />
+      <DeploymentItem filename="C:\Users\USER\Documents\Visual Studio 2010\Projects\AutoMapperDemo\packages\AutoMapper.3.0.0-ci1037\lib\net40\AutoMapper.Net4.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-12-30T14:14:40.1099202+08:00" queuing="2014-12-30T14:14:41.4259954+08:00" start="2014-12-30T14:14:41.5130004+08:00" finish="2014-12-30T14:14:45.7492427+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="7" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="6" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="USER-PC" outcome="Error" timestamp="2014-12-30T14:14:45.7482426+08:00">
+        <Text>測試主機處理序在未預期的情況下結束。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AutoMapperTestForFlattening" storage="c:\users\user\documents\visual studio 2010\projects\automapperdemo\automapperdemo\bin\debug\automapperdemo.dll" id="909a03b0-eced-744e-8b11-f1be414ed76a">
+      <Execution id="33d997d1-6c35-4d9e-bea8-b95e476b82fe" />
+      <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2010/Projects/AutoMapperDemo/AutoMapperDemo/bin/Debug/AutoMapperDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoMapperDemo.MapperTestForFlattening, AutoMapperDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AutoMapperTestForFlattening" />
+    </UnitTest>
+    <UnitTest name="AutoMapperTestForNestedMappings" storage="c:\users\user\documents\visual studio 2010\projects\automapperdemo\automapperdemo\bin\debug\automapperdemo.dll" id="10123f38-4fa3-b959-dc85-c4dd2b9b3102">
+      <Execution id="66000087-22d5-4afd-8586-17f97740c0fc" />
+      <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2010/Projects/AutoMapperDemo/AutoMapperDemo/bin/Debug/AutoMapperDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoMapperDemo.MapperTestForNested, AutoMapperDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AutoMapperTestForNestedMappings" />
+    </UnitTest>
+    <UnitTest name="AutoMapperTestForCustomValueResolvers" storage="c:\users\user\documents\visual studio 2010\projects\automapperdemo\automapperdemo\bin\debug\automapperdemo.dll" id="8adff332-95ff-c423-6bbb-d3cb672f3d1c">
+      <Execution id="5659b421-b908-4a35-aa6c-afc4608e7b26" />
+      <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2010/Projects/AutoMapperDemo/AutoMapperDemo/bin/Debug/AutoMapperDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoMapperDemo.MapperTestForResolver, AutoMapperDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AutoMapperTestForCustomValueResolvers" />
+    </UnitTest>
+    <UnitTest name="AutoMapperTestForInheritanceMapping" storage="c:\users\user\documents\visual studio 2010\projects\automapperdemo\automapperdemo\bin\debug\automapperdemo.dll" id="556692c1-0053-4d93-c341-ea99cd28c33f">
+      <Execution id="fc182f1d-7350-41c6-8ece-40ff8dc80bde" />
+      <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2010/Projects/AutoMapperDemo/AutoMapperDemo/bin/Debug/AutoMapperDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoMapperDemo.MapperTestForInheritance, AutoMapperDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AutoMapperTestForInheritanceMapping" />
+    </UnitTest>
+    <UnitTest name="AutoMapperTestForConfiguration" storage="c:\users\user\documents\visual studio 2010\projects\automapperdemo\automapperdemo\bin\debug\automapperdemo.dll" id="bcc3b17c-c9f2-a4ff-3a9d-d74058793cb6">
+      <Execution id="7488a5dd-15a9-4e6b-b564-fe2295078714" />
+      <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2010/Projects/AutoMapperDemo/AutoMapperDemo/bin/Debug/AutoMapperDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoMapperDemo.MapperTestForConfiguration, AutoMapperDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AutoMapperTestForConfiguration" />
+    </UnitTest>
+    <UnitTest name="AutoMapperTestForCustomTypeConverters" storage="c:\users\user\documents\visual studio 2010\projects\automapperdemo\automapperdemo\bin\debug\automapperdemo.dll" id="0bd6ef8c-42a9-1b77-6c70-6a3abeca7b66">
+      <Execution id="d5bd3fd4-65ac-4c34-93b2-d1ec00fd2911" />
+      <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2010/Projects/AutoMapperDemo/AutoMapperDemo/bin/Debug/AutoMapperDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoMapperDemo.MapperTestForConverter, AutoMapperDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AutoMapperTestForCustomTypeConverters" />
+    </UnitTest>
+    <UnitTest name="AutoMapperTestForMappingEngine" storage="c:\users\user\documents\visual studio 2010\projects\automapperdemo\automapperdemo\bin\debug\automapperdemo.dll" id="427986f6-c2dc-502a-ecfb-ff7407943a0c">
+      <Execution id="f7d15bf5-a661-443c-b2c0-18c75649911d" />
+      <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2010/Projects/AutoMapperDemo/AutoMapperDemo/bin/Debug/AutoMapperDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoMapperDemo.MapperTestForEngine, AutoMapperDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AutoMapperTestForMappingEngine" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="不在清單中的結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有載入的結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="427986f6-c2dc-502a-ecfb-ff7407943a0c" executionId="f7d15bf5-a661-443c-b2c0-18c75649911d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0bd6ef8c-42a9-1b77-6c70-6a3abeca7b66" executionId="d5bd3fd4-65ac-4c34-93b2-d1ec00fd2911" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="556692c1-0053-4d93-c341-ea99cd28c33f" executionId="fc182f1d-7350-41c6-8ece-40ff8dc80bde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10123f38-4fa3-b959-dc85-c4dd2b9b3102" executionId="66000087-22d5-4afd-8586-17f97740c0fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bcc3b17c-c9f2-a4ff-3a9d-d74058793cb6" executionId="7488a5dd-15a9-4e6b-b564-fe2295078714" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8adff332-95ff-c423-6bbb-d3cb672f3d1c" executionId="5659b421-b908-4a35-aa6c-afc4608e7b26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="909a03b0-eced-744e-8b11-f1be414ed76a" executionId="33d997d1-6c35-4d9e-bea8-b95e476b82fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f7d15bf5-a661-443c-b2c0-18c75649911d" testId="427986f6-c2dc-502a-ecfb-ff7407943a0c" testName="AutoMapperTestForMappingEngine" computerName="USER-PC" duration="00:00:04.1732387" startTime="2014-12-30T14:14:41.5760040+08:00" endTime="2014-12-30T14:14:45.7492427+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7d15bf5-a661-443c-b2c0-18c75649911d">
+    </UnitTestResult>
+    <UnitTestResult executionId="d5bd3fd4-65ac-4c34-93b2-d1ec00fd2911" testId="0bd6ef8c-42a9-1b77-6c70-6a3abeca7b66" testName="AutoMapperTestForCustomTypeConverters" computerName="USER-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5bd3fd4-65ac-4c34-93b2-d1ec00fd2911">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc182f1d-7350-41c6-8ece-40ff8dc80bde" testId="556692c1-0053-4d93-c341-ea99cd28c33f" testName="AutoMapperTestForInheritanceMapping" computerName="USER-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc182f1d-7350-41c6-8ece-40ff8dc80bde">
+    </UnitTestResult>
+    <UnitTestResult executionId="66000087-22d5-4afd-8586-17f97740c0fc" testId="10123f38-4fa3-b959-dc85-c4dd2b9b3102" testName="AutoMapperTestForNestedMappings" computerName="USER-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66000087-22d5-4afd-8586-17f97740c0fc">
+    </UnitTestResult>
+    <UnitTestResult executionId="7488a5dd-15a9-4e6b-b564-fe2295078714" testId="bcc3b17c-c9f2-a4ff-3a9d-d74058793cb6" testName="AutoMapperTestForConfiguration" computerName="USER-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7488a5dd-15a9-4e6b-b564-fe2295078714">
+    </UnitTestResult>
+    <UnitTestResult executionId="5659b421-b908-4a35-aa6c-afc4608e7b26" testId="8adff332-95ff-c423-6bbb-d3cb672f3d1c" testName="AutoMapperTestForCustomValueResolvers" computerName="USER-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5659b421-b908-4a35-aa6c-afc4608e7b26">
+    </UnitTestResult>
+    <UnitTestResult executionId="33d997d1-6c35-4d9e-bea8-b95e476b82fe" testId="909a03b0-eced-744e-8b11-f1be414ed76a" testName="AutoMapperTestForFlattening" computerName="USER-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33d997d1-6c35-4d9e-bea8-b95e476b82fe">
+    </UnitTestResult>
+  </Results>
+</TestRun>
